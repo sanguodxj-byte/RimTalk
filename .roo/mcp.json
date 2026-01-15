@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "rimworld-code-rag": {
+      "command": "dotnet",
+      "args": [
+        "D:/rim mod/RiMCP_hybrid-master/src/RimWorldCodeRag.McpServer/bin/Debug/net8.0/RimWorldCodeRag.McpServer.dll"
+      ],
+      "env": {
+        "RIMWORLD_INDEX_ROOT": "D:/rim mod/RiMCP_hybrid-master/src/RimWorldCodeRag/index",
+        "RIMWORLD_DATA_ROOT": "D:/rim mod/RiMCP_hybrid-master/RimWorldData"
+      },
+      "alwaysAllow": [
+        "get_item",
+        "search_code",
+        "rough_search",
+        "get_uses",
+        "get_used_by",
+        "search_defs",
+        "list_members"
+      ],
+      "disabled": false,
+      "disabledTools": [
+        "rough_search"
+      ],
+      "timeout": 300,
+      "autoApprove": [
+        "rough_search"
+      ]
+    }
+  }
+}

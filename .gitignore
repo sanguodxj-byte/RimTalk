@@ -1,0 +1,30 @@
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Build Results
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Dd]ebug/
+[Rr]elease/
+
+# Unity (if applicable)
+[Ll]ibrary/
+[Tt]emp/
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
